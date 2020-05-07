@@ -1,4 +1,9 @@
+'''
+O(log(n))
 
+Tempo logarítmo
+
+'''
 lista = range(129)
 num_procurado = 128
 
