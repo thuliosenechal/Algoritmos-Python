@@ -3,7 +3,7 @@ from busca_binaria import busca_binaria
 
 
 class TestBuscaBinaria(unittest.TestCase):
-
+    @unittest
     def test_case_a(self):
         lista = [0, 11, 21, 33, 45, 45, 61, 71, 72, 73]
         num_procurado = 33
