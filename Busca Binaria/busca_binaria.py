@@ -1,7 +1,3 @@
-'''
-Busca binária que retorna o count do O(log n) (Número de vezes que passou no loop 
-até encontrar o número procurado)
-'''
 
 lista = range(129)
 num_procurado = 128
@@ -16,7 +12,7 @@ def busca_binaria(lista, num_procurado):
         chute = lista[indice_meio_da_lista]
 
         if num_procurado == chute:
-            return count
+            return indice_meio_da_lista
         elif num_procurado > chute:
             indice_menor_num = indice_meio_da_lista + 1
         else:
