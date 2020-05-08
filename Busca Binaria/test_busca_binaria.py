@@ -1,4 +1,5 @@
 import unittest
+
 from busca_binaria import busca_binaria
 
 
